@@ -3,8 +3,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "jaconda_telegram"
-  spec.version       = '1.0.0pre'
-  spec.authors       = ["Alexander Tsirel"]
+  spec.version       = '1.0'
+  spec.authors       = ["Alexander Tsirel", "Anton Mironov"]
   spec.email         = ["noma4i@gmail.com"]
   spec.summary       = %q{Jaconda.im api wrapper}
   spec.description   = %q{Jaconda Telegram send text and media to selected groups}
